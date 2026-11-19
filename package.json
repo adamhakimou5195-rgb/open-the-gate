@@ -1,0 +1,20 @@
+{
+  "name": "open-the-gate-placement-test",
+  "version": "1.0.0",
+  "description": "Application de Test de Niveau d'Anglais CECRL - OPEN THE GATE",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "server": "node server/src/index.js",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "build": "npm run build:client"
+  },
+  "keywords": [
+    "open-the-gate",
+    "cefr",
+    "english-test",
+    "adaptive-learning"
+  ],
+  "author": "OPEN THE GATE",
+  "license": "ISC"
+}
